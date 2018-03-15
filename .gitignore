@@ -1,6 +1,10 @@
 #Ignore Folders:
 Berichte
 
+#Ignore Files:
+Berichtsheft.tex
+Meta.tex
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -9,6 +13,7 @@ Berichte
 *.fls
 *.out
 *.toc
+*.pdf
 
 ## Intermediate documents:
 *.dvi
@@ -16,8 +21,7 @@ Berichte
 # these rules might exclude image files for figures etc.
 # *.ps
 # *.eps
-Berichtsheft.pdf
-Berichtsheft.tex
+
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
 *.bcf
