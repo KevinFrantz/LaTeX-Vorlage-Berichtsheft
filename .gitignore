@@ -17,7 +17,7 @@ Berichte
 # *.ps
 # *.eps
 Berichtsheft.pdf
-
+Berichtsheft.tex
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
 *.bcf
