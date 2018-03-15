@@ -1,4 +1,5 @@
 \newcommand{\Titelzeile}[3]{
+	\newpage
 	\centering
 	\begin{tabularx}{\textwidth}{lrX}
 	#\multirow{4}{10cm}
@@ -26,9 +27,9 @@
 
 \newcommand{\Woche}[1]{
 \begin{center}
-	\begin{tabularx}{\textwidth}{|p{2cm}|X|}
+	\begin{tabularx}{\textwidth}{|p{2cm}|X|X|}
 		\hline
-		\textbf Wochentag & \textbf Tätigkeit und Stoff der Unterweisung\\
+		\textbf Wochentag & \textbf Tätigkeit und Stoff der Unterweisung & \textbf Dauer\\
 		\hline
 		#1
 	\end{tabularx}
@@ -37,6 +38,7 @@
 
 \newcommand{\Tag}[2]{
 	#1. Tag &
-	#2\\
+	#2 &
+	8h \\
 	\hline
 }
