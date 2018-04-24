@@ -1,9 +1,7 @@
-#Ignore Folders:
-Berichte
-
 #Ignore Files:
 Berichtsheft.tex
 Meta.tex
+Berichte/*.tex
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
